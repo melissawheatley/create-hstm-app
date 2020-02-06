@@ -1,0 +1,10 @@
+// Import our variable overrides before importing bootstrap
+@import "variables";
+
+// Import Bootstrap SCSS from node modules
+@import "~bootstrap/scss/bootstrap.scss";
+
+// Last, import app specific modules
+@import "animations";
+@import "homepage";
+@import "category";
